@@ -5,9 +5,12 @@ import lombok.Setter;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Set;
+
 @Getter
 @Setter
 public class Formulario {
+    private Set<Formulario> formularios;
     private List<Campo> campos;
     private LocalDate fechaVto;
     private int fueRenovado;

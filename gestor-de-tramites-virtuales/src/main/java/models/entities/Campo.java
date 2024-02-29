@@ -9,6 +9,6 @@ import java.util.List;
 public class Campo {
     private boolean esObligatorio;
     private String nombreCampo;
-    private TipoPregunta tipoPregunta;
+    private TipoCampo tipoCampo;
     private List<Opcion> opciones;
 }

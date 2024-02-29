@@ -11,6 +11,6 @@ public class Tramite {
     private String nombre;
     private int codigo;
     private int tiempoResolucion;
-    private List<Formulario> formularios;
+    private Formulario formulario;
 
 }

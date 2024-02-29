@@ -1,6 +1,6 @@
 package models.entities;
 
-public enum TipoPregunta {
+public enum TipoCampo {
     SINGLE_CHOICE,
     MULTIPLE_CHOICE,
     TEXTO_LIBRE
